@@ -4,7 +4,7 @@ The goal of this repo is to create a natural language interface to perform sprea
 
 This code uses prompt engineering to generate code from a given request that will then interact with the spreadsheet.
 
-<img src="./example.gif" alt="Alt Text" width="400" height="300">
+<img src="./sheets-ai-demo.gif" alt="Alt Text" width="400" height="300">
 
 ## Requirements
 1. npm
