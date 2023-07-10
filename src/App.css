@@ -1,0 +1,45 @@
+/* App.css */
+
+body {
+  overflow: hidden; /* Hide the scrollbars for the whole page */
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.chatbot {
+  flex: 1;
+  padding: 20px;
+  background-color: lightgray;
+  overflow-y: auto;
+}
+
+.chatbot-content {
+  height: 100%;
+}
+
+.spreadsheet {
+  flex: 2;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  /*overflow: hidden;*/
+}
+
+.spreadsheet-content {
+  flex-grow: 1;
+  overflow-y: scroll;
+  position: relative;
+}
+
+/* Adjust the CSS for the spreadsheet content */
+.react-grid-Container {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+
+
